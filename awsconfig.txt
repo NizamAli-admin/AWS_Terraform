@@ -1,0 +1,8 @@
+resource "aws_instance" "First_Test_instance" {
+
+  ami           = "ami-097834fcb3081f51a"
+  instance_type = "t2.micro"
+
+
+
+}
